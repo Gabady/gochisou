@@ -1,0 +1,15 @@
+novice KO-MOREBI day 76 cash 96828 delivered 75 failed 0 waste 78 quality 6 regions 1 formal 0 errors 0
+novice FEAST-2026 day 76 cash 97498 delivered 75 failed 0 waste 90 quality 6 regions 1 formal 0 errors 0
+novice FRIENDS day 76 cash 111369 delivered 75 failed 0 waste 86 quality 6 regions 1 formal 0 errors 0
+mass KO-MOREBI day 76 cash 198224 delivered 225 failed 0 waste 0 quality 6 regions 3 formal 0 errors 0
+mass FEAST-2026 day 76 cash 176923 delivered 225 failed 0 waste 1 quality 6 regions 3 formal 0 errors 0
+mass FRIENDS day 76 cash 190694 delivered 225 failed 0 waste 0 quality 6 regions 3 formal 0 errors 0
+quality KO-MOREBI day 76 cash 188789 delivered 223 failed 0 waste 5 quality 6 regions 2 formal 0 errors 0
+quality FEAST-2026 day 76 cash 193537 delivered 222 failed 0 waste 4 quality 6 regions 2 formal 0 errors 0
+quality FRIENDS day 76 cash 199254 delivered 222 failed 0 waste 3 quality 6 regions 2 formal 0 errors 0
+research KO-MOREBI day 76 cash 217544 delivered 225 failed 0 waste 5 quality 6 regions 2 formal 1 errors 0
+research FEAST-2026 day 76 cash 215410 delivered 224 failed 0 waste 0 quality 6 regions 2 formal 1 errors 0
+research FRIENDS day 76 cash 236374 delivered 225 failed 0 waste 3 quality 6 regions 2 formal 1 errors 0
+regional KO-MOREBI day 76 cash 184439 delivered 225 failed 0 waste 0 quality 6 regions 6 formal 0 errors 0
+regional FEAST-2026 day 76 cash 192060 delivered 224 failed 0 waste 0 quality 6 regions 6 formal 0 errors 0
+regional FRIENDS day 76 cash 165561 delivered 225 failed 0 waste 0 quality 6 regions 6 formal 0 errors 0

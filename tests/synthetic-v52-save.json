@@ -1,0 +1,122 @@
+{
+  "day": 10,
+  "money": 23450,
+  "reputation": 50,
+  "researchPoints": 400,
+  "facilities": {
+    "farm": 2,
+    "workshop": 2,
+    "warehouse": 2,
+    "lab": 2
+  },
+  "research": {
+    "production": 2,
+    "quality": 2,
+    "processing": 1,
+    "storage": 0,
+    "sales": 1,
+    "recipe": 2
+  },
+  "inventory": {
+    "milk": 6,
+    "bread": 5,
+    "wheat": 10,
+    "originalDish": 2
+  },
+  "qualityStock": {
+    "bread": {
+      "E": 1,
+      "D": 1,
+      "A": 5
+    },
+    "originalDish": {
+      "B": 2
+    }
+  },
+  "stockAges": {
+    "milk": 2,
+    "bread": 1
+  },
+  "productRarity": {
+    "wheat": "C",
+    "milk": "D"
+  },
+  "orderSkills": {
+    "bread": "A"
+  },
+  "stats": {
+    "levelRewardClaimed": 5,
+    "totalSales": 50000,
+    "ordersDone": 15
+  },
+  "staff": [
+    {
+      "id": 3,
+      "name": "旧こむぎ",
+      "assigned": "workshop",
+      "level": 4,
+      "exp": 2,
+      "stats": {
+        "production": 2,
+        "craft": 8,
+        "sales": 2,
+        "research": 2,
+        "logistics": 2
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "title": "旧複合契約",
+      "req": {
+        "bread": 2,
+        "milk": 1
+      },
+      "reward": 1300,
+      "rep": 3,
+      "left": 1,
+      "days": 4,
+      "status": "active",
+      "minQuality": "D"
+    },
+    {
+      "id": 2,
+      "title": "旧候補",
+      "req": {
+        "bread": 2
+      },
+      "reward": 500,
+      "rep": 2,
+      "left": 2,
+      "days": 3,
+      "status": "open",
+      "minQuality": "E"
+    }
+  ],
+  "originalRecipe": {
+    "name": "初代",
+    "ingredients": {
+      "wheat": 1,
+      "milk": 1
+    },
+    "rank": "B"
+  },
+  "contestEntries": {
+    "breadCup": {
+      "resultDay": 15,
+      "product": "bread",
+      "rank": "A",
+      "baseScore": 75,
+      "resolved": false
+    }
+  },
+  "unlockedRegions": [
+    "town",
+    "shopping"
+  ],
+  "region": "shopping",
+  "unlockedTitles": {
+    "qualityMaster": true
+  }
+}

@@ -1,0 +1,10 @@
+(function(root){'use strict';let ctx=null,bgm=null,settings={bgm:0,sfx:35},step=0;const notes=[60,64,67,72,71,67,64,67,62,65,69,74,72,69,65,62,60,64,67,72,76,72,67,64,62,65,69,67,64,62,60,55];
+function context(){if(!ctx){const AC=root.AudioContext||root.webkitAudioContext;if(AC)try{ctx=new AC()}catch(e){return null}}if(ctx?.state==='suspended')ctx.resume().catch(()=>{});return ctx}
+function tone(note,start,duration,volume,type='sine'){if(!ctx||volume<=0)return;const o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.value=440*Math.pow(2,(note-69)/12);g.gain.setValueAtTime(0,start);g.gain.linearRampToValueAtTime(volume,start+.014);g.gain.exponentialRampToValueAtTime(.0001,start+duration);o.connect(g);g.connect(ctx.destination);o.start(start);o.stop(start+duration+.03)}
+function tick(){if(!ctx||document.hidden||!settings.bgm)return;const n=notes[step%notes.length],t=ctx.currentTime; tone(n,t,.42,settings.bgm/100*.07,'sine');if(step%4===0){tone(n-24,t,.6,settings.bgm/100*.04,'triangle');tone(n-12,t,.8,settings.bgm/100*.025)}step++}
+function setup(s){settings=s;if(bgm)clearInterval(bgm);bgm=null;if(s.bgm&&ctx)bgm=setInterval(()=>{try{tick()}catch(e){clearInterval(bgm);bgm=null}},360)}
+function unlock(){try{if(settings.sfx||settings.bgm)context();setup(settings)}catch(e){ctx=null;if(bgm)clearInterval(bgm);bgm=null}}
+function playEffect(kind){if(!settings.sfx)return;context();if(!ctx)return;const melodies={harvest:[67,72],craft:[64,67,72],buy:[60,67],delivery:[60,64,67,72],growth:[60,65,69,72],quality:[67,72,76,79],award:[60,64,67,72,76,79,84],warning:[55,51],morning:[60,64,67],ending:[60,64,67,72,76],note:[67]};(melodies[kind]||melodies.note).forEach((n,i)=>tone(n,ctx.currentTime+i*.075,.24,settings.sfx/100*.1,'sine'))}
+function effect(kind){try{playEffect(kind)}catch(e){/* Sound failure must never interrupt a transaction or a click. */}}
+root.GCAudio={setup,unlock,effect};document.addEventListener('visibilitychange',()=>{if(document.hidden&&ctx)ctx.suspend().catch(()=>{});else if(ctx&&settings.bgm)ctx.resume().catch(()=>{})});
+})(window);

@@ -1,0 +1,278 @@
+[
+  {
+    "day": 1,
+    "route": "home",
+    "bytes": 16646,
+    "buttons": 15
+  },
+  {
+    "day": 1,
+    "route": "make/plan",
+    "bytes": 5971,
+    "buttons": 17
+  },
+  {
+    "day": 1,
+    "route": "make/craft",
+    "bytes": 13011,
+    "buttons": 27
+  },
+  {
+    "day": 1,
+    "route": "make/produce",
+    "bytes": 3151,
+    "buttons": 15
+  },
+  {
+    "day": 1,
+    "route": "make/buy",
+    "bytes": 6083,
+    "buttons": 19
+  },
+  {
+    "day": 1,
+    "route": "make/inventory",
+    "bytes": 3093,
+    "buttons": 17
+  },
+  {
+    "day": 1,
+    "route": "make/original",
+    "bytes": 1447,
+    "buttons": 13
+  },
+  {
+    "day": 1,
+    "route": "trade/orders",
+    "bytes": 6741,
+    "buttons": 24
+  },
+  {
+    "day": 1,
+    "route": "trade/finance",
+    "bytes": 3128,
+    "buttons": 16
+  },
+  {
+    "day": 1,
+    "route": "trade/customers",
+    "bytes": 3488,
+    "buttons": 12
+  },
+  {
+    "day": 1,
+    "route": "trade/wholesale",
+    "bytes": 5804,
+    "buttons": 18
+  },
+  {
+    "day": 1,
+    "route": "trade/regions",
+    "bytes": 3567,
+    "buttons": 17
+  },
+  {
+    "day": 1,
+    "route": "grow/staff",
+    "bytes": 3614,
+    "buttons": 17
+  },
+  {
+    "day": 1,
+    "route": "grow/recruit",
+    "bytes": 3586,
+    "buttons": 16
+  },
+  {
+    "day": 1,
+    "route": "grow/research",
+    "bytes": 5271,
+    "buttons": 21
+  },
+  {
+    "day": 1,
+    "route": "grow/facilities",
+    "bytes": 2881,
+    "buttons": 16
+  },
+  {
+    "day": 1,
+    "route": "grow/auto",
+    "bytes": 6946,
+    "buttons": 19
+  },
+  {
+    "day": 1,
+    "route": "grow/invest",
+    "bytes": 3078,
+    "buttons": 17
+  },
+  {
+    "day": 1,
+    "route": "more/book",
+    "bytes": 17592,
+    "buttons": 39
+  },
+  {
+    "day": 1,
+    "route": "more/contests",
+    "bytes": 2925,
+    "buttons": 15
+  },
+  {
+    "day": 1,
+    "route": "more/rivals",
+    "bytes": 2301,
+    "buttons": 15
+  },
+  {
+    "day": 1,
+    "route": "more/timeline",
+    "bytes": 992,
+    "buttons": 11
+  },
+  {
+    "day": 1,
+    "route": "more/settings",
+    "bytes": 2531,
+    "buttons": 18
+  },
+  {
+    "day": 76,
+    "route": "home",
+    "bytes": 21399,
+    "buttons": 23
+  },
+  {
+    "day": 76,
+    "route": "make/plan",
+    "bytes": 6267,
+    "buttons": 17
+  },
+  {
+    "day": 76,
+    "route": "make/craft",
+    "bytes": 13660,
+    "buttons": 28
+  },
+  {
+    "day": 76,
+    "route": "make/produce",
+    "bytes": 3181,
+    "buttons": 15
+  },
+  {
+    "day": 76,
+    "route": "make/buy",
+    "bytes": 5911,
+    "buttons": 19
+  },
+  {
+    "day": 76,
+    "route": "make/inventory",
+    "bytes": 3243,
+    "buttons": 18
+  },
+  {
+    "day": 76,
+    "route": "make/original",
+    "bytes": 18660,
+    "buttons": 21
+  },
+  {
+    "day": 76,
+    "route": "trade/orders",
+    "bytes": 6778,
+    "buttons": 24
+  },
+  {
+    "day": 76,
+    "route": "trade/finance",
+    "bytes": 3177,
+    "buttons": 16
+  },
+  {
+    "day": 76,
+    "route": "trade/customers",
+    "bytes": 5450,
+    "buttons": 13
+  },
+  {
+    "day": 76,
+    "route": "trade/wholesale",
+    "bytes": 12993,
+    "buttons": 27
+  },
+  {
+    "day": 76,
+    "route": "trade/regions",
+    "bytes": 3550,
+    "buttons": 17
+  },
+  {
+    "day": 76,
+    "route": "grow/staff",
+    "bytes": 13918,
+    "buttons": 33
+  },
+  {
+    "day": 76,
+    "route": "grow/recruit",
+    "bytes": 7629,
+    "buttons": 18
+  },
+  {
+    "day": 76,
+    "route": "grow/research",
+    "bytes": 5560,
+    "buttons": 21
+  },
+  {
+    "day": 76,
+    "route": "grow/facilities",
+    "bytes": 2915,
+    "buttons": 16
+  },
+  {
+    "day": 76,
+    "route": "grow/auto",
+    "bytes": 6937,
+    "buttons": 19
+  },
+  {
+    "day": 76,
+    "route": "grow/invest",
+    "bytes": 3071,
+    "buttons": 17
+  },
+  {
+    "day": 76,
+    "route": "more/book",
+    "bytes": 17630,
+    "buttons": 39
+  },
+  {
+    "day": 76,
+    "route": "more/contests",
+    "bytes": 3395,
+    "buttons": 16
+  },
+  {
+    "day": 76,
+    "route": "more/rivals",
+    "bytes": 2328,
+    "buttons": 15
+  },
+  {
+    "day": 76,
+    "route": "more/timeline",
+    "bytes": 41388,
+    "buttons": 87
+  },
+  {
+    "day": 76,
+    "route": "more/settings",
+    "bytes": 2726,
+    "buttons": 18
+  }
+]

@@ -1,0 +1,31 @@
+✔ bento advice begins with a real missing ingredient and valid procurement unit (3.91994ms)
+✔ advice advances from buying to intermediate craft to target quality using current state (4.47038ms)
+✔ exact odds use craftPlan and first-batch quantity, never hypothetical materials (0.534457ms)
+✔ material cap guides to material growth, not ineffective quality research (0.365272ms)
+✔ research unlock is explicit and takes precedence over collecting unusable ingredients (0.360655ms)
+✔ one-step rework recommends the actual lot and preserves its deadline on execution (0.79456ms)
+✔ zero funds, spent frames, capacity and protected stock get concrete separate routes (1.777253ms)
+✔ accept limits are explained independently from manufacturing readiness (0.331621ms)
+✔ advice never mutates cash, RNG, staffing or inventory through repeated rendering (1.758265ms)
+✔ quality target never leaks into intermediate guidance and preserves order reservation (0.446674ms)
+✔ whole-day simulations and previews leave optional invitation untouched and never expire it (7.696823ms)
+✔ dining unlock by day or company level, single active slot, lossless cancellation (0.964627ms)
+✔ E bread and E salad match a picnic; quality cannot outweigh purpose and serving style (0.911827ms)
+✔ preview and actual score match exactly with no gameplay RNG use (1.466024ms)
+✔ dining consumes one of each and cannot use reserved, protected, expired, raw or same food (1.683672ms)
+✔ double submission cannot repeat rewards or consume another sample (0.84138ms)
+✔ replay records improvement but no repeated research or mastery reward (1.47684ms)
+✔ sample cost affects profit once without a second cash charge or false sales (0.841521ms)
+✔ dining dishes can be prepared through the ordinary batch engine with no extra clicks per material (2.727058ms)
+✔ sample preparation is atomic and honors order locks and limited frames (0.649881ms)
+✔ all four briefs have feasible E-quality pairings without imposing a single high-price dish (6.547587ms)
+✔ v57 migration preserves real prior rules, all assets, recruiters, contracts and RNG (3.638905ms)
+✔ album and active brief survive save restart; invalid score and duplicate album fail import (1.365782ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.091888

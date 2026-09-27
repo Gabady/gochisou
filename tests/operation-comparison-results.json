@@ -1,0 +1,65 @@
+[
+  {
+    "seed": "KO-MOREBI",
+    "dailyDelegation": {
+      "actions": 187,
+      "deliveries": 75,
+      "failed": 0,
+      "waste": 47,
+      "cash": 35891
+    },
+    "days": 75,
+    "manualActions": 452,
+    "batchActions": 261,
+    "quickActions": 186,
+    "quickReductionPercent": 58.8,
+    "reductionPercent": 42.3,
+    "deliveries": 75,
+    "failed": 0,
+    "waste": 65,
+    "cash": 35711,
+    "matchedOutcomes": true
+  },
+  {
+    "seed": "FEAST-2026",
+    "dailyDelegation": {
+      "actions": 187,
+      "deliveries": 75,
+      "failed": 0,
+      "waste": 26,
+      "cash": 33384
+    },
+    "days": 75,
+    "manualActions": 434,
+    "batchActions": 261,
+    "quickActions": 186,
+    "quickReductionPercent": 57.1,
+    "reductionPercent": 39.9,
+    "deliveries": 75,
+    "failed": 0,
+    "waste": 39,
+    "cash": 33204,
+    "matchedOutcomes": true
+  },
+  {
+    "seed": "FRIENDS",
+    "dailyDelegation": {
+      "actions": 187,
+      "deliveries": 75,
+      "failed": 0,
+      "waste": 33,
+      "cash": 35790
+    },
+    "days": 75,
+    "manualActions": 450,
+    "batchActions": 261,
+    "quickActions": 186,
+    "quickReductionPercent": 58.7,
+    "reductionPercent": 42,
+    "deliveries": 75,
+    "failed": 0,
+    "waste": 47,
+    "cash": 35586,
+    "matchedOutcomes": true
+  }
+]
