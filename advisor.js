@@ -15,7 +15,7 @@ A.deliverReady=s=>{const ready=readyDeliveries(s);check(ready.count>0,'いま納
 function closingForecast(state){if(state.ended)return {ok:true,report:null,scheduledIds:[],risks:[]};const result=E.transact(state,'nextDay',{day:state.day});if(!result.ok)return {ok:false,reason:result.error,scheduledIds:[],risks:[]};const report=result.state.lastReport,remaining=new Set(report.pendingOrders.map(o=>o.id)),scheduledIds=state.orders.filter(o=>!remaining.has(o.id)).map(o=>o.id),risks=[];
  for(const o of report.pendingOrders.filter(o=>o.dueDay<=state.day))risks.push({kind:'deadline',id:o.id,title:item(state,o.itemId).name+'の納期が今日まで',text:'このまま閉店すると未納品になります。',to:'trade/orders'});
  if(report.expired.length)risks.push({kind:'expiry',title:report.expired.reduce((n,l)=>n+l.n,0)+'個が閉店時に廃棄',text:report.expired.map(l=>l.name+' ×'+l.n).join(' / '),to:'make/inventory'});
- if(state.event&&['price','repair','delivery'].includes(D.events[state.event.index].kind))risks.push({kind:'event',title:'明日の変更について相談があります',text:'未回答なら費用なしの対応が適用されます。',action:'eventSheet'});
+ if(state.event&&!state.event.story&&['price','repair','delivery'].includes(D.events[state.event.index].kind))risks.push({kind:'event',title:'明日の変更について相談があります',text:'未回答なら費用なしの対応が適用されます。',action:'eventSheet'});
  for(const key of Object.keys(D.contests))if(E.nextContest(state,key)-state.day===1&&!state.contestEntries.some(e=>e.key===key))risks.push({kind:'contest',title:D.contests[key].name+'の出品が今日まで',text:'参加は任意です。提出するなら今日のうちに。',to:'more/contests'});
  return {ok:true,report,scheduledIds,risks};
 }

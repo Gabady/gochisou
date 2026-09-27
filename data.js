@@ -1,6 +1,6 @@
-/* ごちそうカンパニー v58 — self-contained content data. */
+/* ごちそうカンパニー v59 — self-contained content data. */
 (function(root){'use strict';
-const D={version:'58',schema:3,rules:'2.3.0',content:'58.0',ranks:['E','D','C','B','A','S','SS'],rankNames:['素朴','ふつう','良品','上質','特選','逸品','名品']};
+const D={version:'59',schema:3,rules:'2.4.0',content:'59.0',ranks:['E','D','C','B','A','S','SS'],rankNames:['素朴','ふつう','良品','上質','特選','逸品','名品']};
 D.items={
  wheat:{name:'小麦',kind:'raw',price:50,cost:12,tags:['香ばしい'],farm:true},
  vegetable:{name:'野菜',kind:'raw',price:60,cost:15,tags:['さっぱり','彩り'],farm:true},
@@ -54,7 +54,7 @@ D.customers=[
 ];
 D.regions={town:{name:'こもれび町',short:'町内',cost:0,lv:1,rep:0,tags:['家庭的','香ばしい'],desc:'日常食の安定需要。基礎商品で関係を育てやすい。',goal:'町内納品 8件'},shopping:{name:'花咲く商店街',short:'商店街',cost:3500,lv:3,rep:12,tags:['まろやか','家庭的'],desc:'子どもの催しと差し入れ。ミルクパン開発の入口。',goal:'商店街納品 8件'},city:{name:'あさひ市',short:'市内',cost:7000,lv:5,rep:25,tags:['携帯','満足'],desc:'会議の昼食とまとめ注文。弁当の活躍する街。',goal:'市内納品 8件'},prefecture:{name:'みなと観光圏',short:'県内',cost:13000,lv:7,rep:45,tags:['彩り','携帯'],desc:'旅のおみやげとご当地パフェ。見た目もおいしさ。',goal:'県内納品 8件'},national:{name:'全国の食卓',short:'全国',cost:22000,lv:10,rep:65,tags:['濃厚','香ばしい'],desc:'記念日の贈り物と指名注文。品質の安定が鍵。',goal:'全国納品 8件'},overseas:{name:'海の向こう',short:'海外',cost:38000,lv:13,rep:90,tags:['家庭的','彩り'],desc:'日本の食と物語を届ける。高品質ギフトに機会。',goal:'海外納品 8件'}};
 D.facilities={farm:{name:'畑',base:900,desc:'生産枠＋1・1バッチ＋1'},workshop:{name:'工房',base:1200,desc:'加工枠＋1・品質分布が改善'},warehouse:{name:'倉庫',base:850,desc:'容量＋16・Lv3/5で保管期間＋1'},lab:{name:'研究室',base:1400,desc:'毎日の研究P＋4'}};
-D.research={production:{name:'生産研究',desc:'生産バッチ＋1・素材育成＋1',base:18},processing:{name:'加工研究',desc:'加工バッチ＋1・Lv2ごとに加工枠＋1',base:22},quality:{name:'品質研究',desc:'品質分布を改善・高級パンを解放',base:26},storage:{name:'倉庫管理',desc:'容量＋8・Lv3で入庫時の保存＋1日',base:20},sales:{name:'販売研究',desc:'契約補正＋4%・Lv2ごとに受注枠＋1',base:24},recipe:{name:'レシピ研究',desc:'惣菜→ケーキ→弁当→高級菓子→ギフト',base:25}};
+D.research={production:{name:'生産研究',desc:'生産バッチ＋1・素材育成＋1',base:18},processing:{name:'加工研究',desc:'加工バッチ＋1・Lv2ごとに加工枠＋1',base:22},quality:{name:'品質研究',desc:'品質分布を改善・高級パンを解放',base:26},storage:{name:'倉庫管理',desc:'容量＋8・Lv3で入庫時の保存＋1日',base:20},sales:{name:'販売研究',desc:'契約補正＋4%・Lv2ごと同時受注＋1・Lv3/6で新規受注＋1件/日',base:24},recipe:{name:'レシピ研究',desc:'惣菜→ケーキ→弁当→高級菓子→ギフト',base:25}};
 D.policies={standard:{name:'標準',size:1,quality:0,fee:1},mass:{name:'量産',size:1.65,quality:-.65,fee:.85},careful:{name:'丁寧',size:.6,quality:1,fee:1.3},trial:{name:'試作',size:.45,quality:.25,fee:1.4}};
 D.auto={autoWheat:{name:'自動小麦畑',item:'wheat',cost:2000,lv:2},autoVeg:{name:'自動野菜畑',item:'vegetable',cost:2200,lv:2},flourMill:{name:'製粉所',item:'flour',cost:3000,lv:3},breadFactory:{name:'パン工房ライン',item:'bread',cost:4500,lv:4},saladKitchen:{name:'サラダ工房',item:'salad',cost:4200,lv:4},premiumLine:{name:'高級パンライン',item:'premiumBread',cost:7000,lv:6}};
 D.contests={breadCup:{name:'こもれびパン祭り',first:15,period:30,tag:'香ばしい',product:'bread',fee:200,prize:2800},saladFest:{name:'夏の彩りフェス',first:30,period:60,tag:'さっぱり',product:'salad',fee:350,prize:4500},sweetsCup:{name:'秋のごちそう展',first:45,period:60,tag:'彩り',product:null,fee:600,prize:7000},nationalFeast:{name:'全国ごちそう品評会',first:60,period:60,tag:'家庭的',original:true,fee:1000,prize:12000}};

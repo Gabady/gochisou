@@ -2,277 +2,277 @@
   {
     "day": 1,
     "route": "home",
-    "bytes": 16646,
-    "buttons": 15
+    "bytes": 16853,
+    "buttons": 14
   },
   {
     "day": 1,
     "route": "make/plan",
-    "bytes": 5971,
-    "buttons": 17
+    "bytes": 7484,
+    "buttons": 19
   },
   {
     "day": 1,
     "route": "make/craft",
-    "bytes": 13011,
-    "buttons": 27
+    "bytes": 14524,
+    "buttons": 29
   },
   {
     "day": 1,
     "route": "make/produce",
-    "bytes": 3151,
-    "buttons": 15
+    "bytes": 4664,
+    "buttons": 17
   },
   {
     "day": 1,
     "route": "make/buy",
-    "bytes": 6083,
-    "buttons": 19
-  },
-  {
-    "day": 1,
-    "route": "make/inventory",
-    "bytes": 3093,
-    "buttons": 17
-  },
-  {
-    "day": 1,
-    "route": "make/original",
-    "bytes": 1447,
-    "buttons": 13
-  },
-  {
-    "day": 1,
-    "route": "trade/orders",
-    "bytes": 6741,
-    "buttons": 24
-  },
-  {
-    "day": 1,
-    "route": "trade/finance",
-    "bytes": 3128,
-    "buttons": 16
-  },
-  {
-    "day": 1,
-    "route": "trade/customers",
-    "bytes": 3488,
-    "buttons": 12
-  },
-  {
-    "day": 1,
-    "route": "trade/wholesale",
-    "bytes": 5804,
-    "buttons": 18
-  },
-  {
-    "day": 1,
-    "route": "trade/regions",
-    "bytes": 3567,
-    "buttons": 17
-  },
-  {
-    "day": 1,
-    "route": "grow/staff",
-    "bytes": 3614,
-    "buttons": 17
-  },
-  {
-    "day": 1,
-    "route": "grow/recruit",
-    "bytes": 3586,
-    "buttons": 16
-  },
-  {
-    "day": 1,
-    "route": "grow/research",
-    "bytes": 5271,
+    "bytes": 7596,
     "buttons": 21
   },
   {
     "day": 1,
-    "route": "grow/facilities",
-    "bytes": 2881,
-    "buttons": 16
-  },
-  {
-    "day": 1,
-    "route": "grow/auto",
-    "bytes": 6946,
+    "route": "make/inventory",
+    "bytes": 4606,
     "buttons": 19
   },
   {
     "day": 1,
+    "route": "make/original",
+    "bytes": 2960,
+    "buttons": 15
+  },
+  {
+    "day": 1,
+    "route": "trade/orders",
+    "bytes": 8507,
+    "buttons": 27
+  },
+  {
+    "day": 1,
+    "route": "trade/finance",
+    "bytes": 4641,
+    "buttons": 18
+  },
+  {
+    "day": 1,
+    "route": "trade/customers",
+    "bytes": 5001,
+    "buttons": 14
+  },
+  {
+    "day": 1,
+    "route": "trade/wholesale",
+    "bytes": 7317,
+    "buttons": 20
+  },
+  {
+    "day": 1,
+    "route": "trade/regions",
+    "bytes": 5080,
+    "buttons": 19
+  },
+  {
+    "day": 1,
+    "route": "grow/staff",
+    "bytes": 5127,
+    "buttons": 19
+  },
+  {
+    "day": 1,
+    "route": "grow/recruit",
+    "bytes": 5099,
+    "buttons": 18
+  },
+  {
+    "day": 1,
+    "route": "grow/research",
+    "bytes": 6800,
+    "buttons": 23
+  },
+  {
+    "day": 1,
+    "route": "grow/facilities",
+    "bytes": 4394,
+    "buttons": 18
+  },
+  {
+    "day": 1,
+    "route": "grow/auto",
+    "bytes": 8459,
+    "buttons": 21
+  },
+  {
+    "day": 1,
     "route": "grow/invest",
-    "bytes": 3078,
-    "buttons": 17
+    "bytes": 4591,
+    "buttons": 19
   },
   {
     "day": 1,
     "route": "more/book",
-    "bytes": 17592,
-    "buttons": 39
+    "bytes": 19105,
+    "buttons": 41
   },
   {
     "day": 1,
     "route": "more/contests",
-    "bytes": 2925,
-    "buttons": 15
+    "bytes": 4438,
+    "buttons": 17
   },
   {
     "day": 1,
     "route": "more/rivals",
-    "bytes": 2301,
-    "buttons": 15
+    "bytes": 3814,
+    "buttons": 17
   },
   {
     "day": 1,
     "route": "more/timeline",
-    "bytes": 992,
-    "buttons": 11
+    "bytes": 2505,
+    "buttons": 13
   },
   {
     "day": 1,
     "route": "more/settings",
-    "bytes": 2531,
-    "buttons": 18
+    "bytes": 4420,
+    "buttons": 22
   },
   {
     "day": 76,
     "route": "home",
-    "bytes": 21399,
-    "buttons": 23
+    "bytes": 21672,
+    "buttons": 22
   },
   {
     "day": 76,
     "route": "make/plan",
-    "bytes": 6267,
-    "buttons": 17
+    "bytes": 7767,
+    "buttons": 19
   },
   {
     "day": 76,
     "route": "make/craft",
-    "bytes": 13660,
-    "buttons": 28
+    "bytes": 15160,
+    "buttons": 30
   },
   {
     "day": 76,
     "route": "make/produce",
-    "bytes": 3181,
-    "buttons": 15
+    "bytes": 4681,
+    "buttons": 17
   },
   {
     "day": 76,
     "route": "make/buy",
-    "bytes": 5911,
-    "buttons": 19
+    "bytes": 7411,
+    "buttons": 21
   },
   {
     "day": 76,
     "route": "make/inventory",
-    "bytes": 3243,
-    "buttons": 18
+    "bytes": 4743,
+    "buttons": 20
   },
   {
     "day": 76,
     "route": "make/original",
-    "bytes": 18660,
-    "buttons": 21
+    "bytes": 20160,
+    "buttons": 23
   },
   {
     "day": 76,
     "route": "trade/orders",
-    "bytes": 6778,
-    "buttons": 24
-  },
-  {
-    "day": 76,
-    "route": "trade/finance",
-    "bytes": 3177,
-    "buttons": 16
-  },
-  {
-    "day": 76,
-    "route": "trade/customers",
-    "bytes": 5450,
-    "buttons": 13
-  },
-  {
-    "day": 76,
-    "route": "trade/wholesale",
-    "bytes": 12993,
+    "bytes": 8552,
     "buttons": 27
   },
   {
     "day": 76,
-    "route": "trade/regions",
-    "bytes": 3550,
-    "buttons": 17
-  },
-  {
-    "day": 76,
-    "route": "grow/staff",
-    "bytes": 13918,
-    "buttons": 33
-  },
-  {
-    "day": 76,
-    "route": "grow/recruit",
-    "bytes": 7629,
+    "route": "trade/finance",
+    "bytes": 4677,
     "buttons": 18
   },
   {
     "day": 76,
-    "route": "grow/research",
-    "bytes": 5560,
-    "buttons": 21
-  },
-  {
-    "day": 76,
-    "route": "grow/facilities",
-    "bytes": 2915,
-    "buttons": 16
-  },
-  {
-    "day": 76,
-    "route": "grow/auto",
-    "bytes": 6937,
-    "buttons": 19
-  },
-  {
-    "day": 76,
-    "route": "grow/invest",
-    "bytes": 3071,
-    "buttons": 17
-  },
-  {
-    "day": 76,
-    "route": "more/book",
-    "bytes": 17630,
-    "buttons": 39
-  },
-  {
-    "day": 76,
-    "route": "more/contests",
-    "bytes": 3395,
-    "buttons": 16
-  },
-  {
-    "day": 76,
-    "route": "more/rivals",
-    "bytes": 2328,
+    "route": "trade/customers",
+    "bytes": 6950,
     "buttons": 15
   },
   {
     "day": 76,
+    "route": "trade/wholesale",
+    "bytes": 14493,
+    "buttons": 29
+  },
+  {
+    "day": 76,
+    "route": "trade/regions",
+    "bytes": 5050,
+    "buttons": 19
+  },
+  {
+    "day": 76,
+    "route": "grow/staff",
+    "bytes": 15361,
+    "buttons": 35
+  },
+  {
+    "day": 76,
+    "route": "grow/recruit",
+    "bytes": 9129,
+    "buttons": 20
+  },
+  {
+    "day": 76,
+    "route": "grow/research",
+    "bytes": 7076,
+    "buttons": 23
+  },
+  {
+    "day": 76,
+    "route": "grow/facilities",
+    "bytes": 4415,
+    "buttons": 18
+  },
+  {
+    "day": 76,
+    "route": "grow/auto",
+    "bytes": 8437,
+    "buttons": 21
+  },
+  {
+    "day": 76,
+    "route": "grow/invest",
+    "bytes": 4571,
+    "buttons": 19
+  },
+  {
+    "day": 76,
+    "route": "more/book",
+    "bytes": 19129,
+    "buttons": 41
+  },
+  {
+    "day": 76,
+    "route": "more/contests",
+    "bytes": 4895,
+    "buttons": 18
+  },
+  {
+    "day": 76,
+    "route": "more/rivals",
+    "bytes": 3828,
+    "buttons": 17
+  },
+  {
+    "day": 76,
     "route": "more/timeline",
-    "bytes": 41388,
-    "buttons": 87
+    "bytes": 42941,
+    "buttons": 89
   },
   {
     "day": 76,
     "route": "more/settings",
-    "bytes": 2726,
-    "buttons": 18
+    "bytes": 4608,
+    "buttons": 22
   }
 ]

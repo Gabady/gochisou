@@ -1,19 +1,82 @@
-{
-  "runtime": "v24.19.0",
-  "files": [
-    "actions.js",
-    "advisor.js",
-    "art.js",
-    "audio.js",
-    "data.js",
-    "engine.js",
-    "finance.js",
-    "flavor.js",
-    "planning.js",
-    "platform.js",
-    "recruitment.js",
-    "storage.js",
-    "ui.js"
-  ],
-  "passed": 13
-}
+[
+  {
+    "file": "data.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "storage.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "engine.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "art.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "planning.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "audio.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "progression.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "flavor.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "actions.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "advisor.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "ui.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "recruitment.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "platform.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "guidance.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "finance.js",
+    "ok": true,
+    "error": ""
+  },
+  {
+    "file": "dining.js",
+    "ok": true,
+    "error": ""
+  }
+]

@@ -2,1023 +2,1167 @@ TAP version 13
 # Subtest: daily advice and candidate shortcuts are pure, including repeated reads and RNG
 ok 1 - daily advice and candidate shortcuts are pure, including repeated reads and RNG
   ---
-  duration_ms: 13.763351
+  duration_ms: 12.617795
   type: 'test'
   ...
 # Subtest: closing forecast removes deadline and expiry warnings when auto delivery actually consumes the stock
 ok 2 - closing forecast removes deadline and expiry warnings when auto delivery actually consumes the stock
   ---
-  duration_ms: 1.667547
+  duration_ms: 1.32778
   type: 'test'
   ...
 # Subtest: auto delivery enabled alone cannot hide an unfulfillable deadline
 ok 3 - auto delivery enabled alone cannot hide an unfulfillable deadline
   ---
-  duration_ms: 0.559304
+  duration_ms: 0.570088
   type: 'test'
   ...
 # Subtest: delegated forecast shares the actual closing transaction and shows only additional spending
 ok 4 - delegated forecast shares the actual closing transaction and shows only additional spending
   ---
-  duration_ms: 2.492944
+  duration_ms: 2.717972
   type: 'test'
   ...
 # Subtest: spare frames are not presented as executable orders when no funds or usable stock remain
 ok 5 - spare frames are not presented as executable orders when no funds or usable stock remain
   ---
-  duration_ms: 2.097307
+  duration_ms: 2.00114
   type: 'test'
   ...
 # Subtest: optional affordable research is still shown after all daily frames are used
 ok 6 - optional affordable research is still shown after all daily frames are used
   ---
-  duration_ms: 2.294204
+  duration_ms: 2.956102
   type: 'test'
   ...
 # Subtest: ready delivery grouping allocates shared stock once and respects reservations
 ok 7 - ready delivery grouping allocates shared stock once and respects reservations
   ---
-  duration_ms: 1.390149
+  duration_ms: 1.052676
   type: 'test'
   ...
 # Subtest: single candidate action matches separate acceptance and guaranteed preparation
 ok 8 - single candidate action matches separate acceptance and guaranteed preparation
   ---
-  duration_ms: 3.08589
+  duration_ms: 2.250065
   type: 'test'
   ...
 # Subtest: failed candidate shortcut cannot accept, spend money, consume frames or advance RNG
 ok 9 - failed candidate shortcut cannot accept, spend money, consume frames or advance RNG
   ---
-  duration_ms: 0.911857
+  duration_ms: 0.683464
   type: 'test'
   ...
 # Subtest: preset choices expose meaningful limits and disable only the disclosed extra crop
 ok 10 - preset choices expose meaningful limits and disable only the disclosed extra crop
   ---
-  duration_ms: 0.81448
+  duration_ms: 0.740588
   type: 'test'
   ...
 # Subtest: intermediate flour cannot consume the frame reserved for personal experimentation
 ok 11 - intermediate flour cannot consume the frame reserved for personal experimentation
   ---
-  duration_ms: 1.886358
+  duration_ms: 1.773425
   type: 'test'
   ...
 # Subtest: v55 save upgrade preserves custom work settings, all assets and first evaluation
 ok 12 - v55 save upgrade preserves custom work settings, all assets and first evaluation
   ---
-  duration_ms: 0.678274
+  duration_ms: 0.675683
   type: 'test'
   ...
 # Subtest: ended company offers no misleading available job until continuation is chosen
 ok 13 - ended company offers no misleading available job until continuation is chosen
   ---
-  duration_ms: 0.540947
+  duration_ms: 0.21163
   type: 'test'
   ...
 # Subtest: budget and held-frame stopping explanations lead to the relevant setting
 ok 14 - budget and held-frame stopping explanations lead to the relevant setting
   ---
-  duration_ms: 0.240123
+  duration_ms: 0.171381
   type: 'test'
   ...
 # Subtest: bundle preview is pure and matches manual chain cost, lots, quality, staff and RNG
 ok 15 - bundle preview is pure and matches manual chain cost, lots, quality, staff and RNG
   ---
-  duration_ms: 9.145198
+  duration_ms: 9.38809
   type: 'test'
   ...
 # Subtest: failed bundle is atomic after intermediate steps and double tap is rejected
 ok 16 - failed bundle is atomic after intermediate steps and double tap is rejected
   ---
-  duration_ms: 1.715961
+  duration_ms: 1.885189
   type: 'test'
   ...
 # Subtest: bundle and work plan protect locked, reserved and high-quality order stocks
 ok 17 - bundle and work plan protect locked, reserved and high-quality order stocks
   ---
-  duration_ms: 1.186191
+  duration_ms: 0.886592
   type: 'test'
   ...
 # Subtest: bundle is allowed with full warehouse if crafting decreases net volume
 ok 18 - bundle is allowed with full warehouse if crafting decreases net volume
   ---
-  duration_ms: 0.672506
+  duration_ms: 0.699788
   type: 'test'
   ...
 # Subtest: work plan uses normal daily frames and one daily budget across run-now and close
 ok 19 - work plan uses normal daily frames and one daily budget across run-now and close
   ---
-  duration_ms: 4.830073
+  duration_ms: 4.800081
   type: 'test'
   ...
 # Subtest: quality challenge is stopped before spending or RNG; guaranteed E cap remains C
 ok 20 - quality challenge is stopped before spending or RNG; guaranteed E cap remains C
   ---
-  duration_ms: 1.068053
+  duration_ms: 1.092154
   type: 'test'
   ...
 # Subtest: routine prepares partial batches over days and reserves them until full delivery
 ok 21 - routine prepares partial batches over days and reserves them until full delivery
   ---
-  duration_ms: 2.377991
+  duration_ms: 2.416519
   type: 'test'
   ...
 # Subtest: work plan reserves a single own batch across compound recipe requirements
 ok 22 - work plan reserves a single own batch across compound recipe requirements
   ---
-  duration_ms: 0.785266
+  duration_ms: 1.218299
   type: 'test'
   ...
 # Subtest: production XP is based on stored quantity, capped per crop/day and independent of splitting
 ok 23 - production XP is based on stored quantity, capped per crop/day and independent of splitting
   ---
-  duration_ms: 1.544522
+  duration_ms: 1.423751
   type: 'test'
   ...
 # Subtest: v53/v54 upgrade preserves assets, contracts, evaluation and old lot quality
 ok 24 - v53/v54 upgrade preserves assets, contracts, evaluation and old lot quality
   ---
-  duration_ms: 1.233772
+  duration_ms: 1.051444
   type: 'test'
   ...
 # Subtest: work-plan save failure cannot close the same day twice in memory
 ok 25 - work-plan save failure cannot close the same day twice in memory
   ---
-  duration_ms: 1.250157
+  duration_ms: 1.234684
   type: 'test'
   ...
 # Subtest: day60 includes delegated final delivery and final first evaluation remains permanent
 ok 26 - day60 includes delegated final delivery and final first evaluation remains permanent
   ---
-  duration_ms: 1.489069
+  duration_ms: 1.653529
   type: 'test'
   ...
 # Subtest: invalid work settings and forged affinity data are rejected on import
 ok 27 - invalid work settings and forged affinity data are rejected on import
   ---
-  duration_ms: 8.017896
+  duration_ms: 8.064646
   type: 'test'
   ...
 # Subtest: seven compatibility tiers sum with a cap and never reward duplicate premium families
 ok 28 - seven compatibility tiers sum with a cap and never reward duplicate premium families
   ---
-  duration_ms: 1.830143
+  duration_ms: 1.802418
   type: 'test'
   ...
 # Subtest: weak total, including positive/negative cancellation, adds bounded saved-RNG randomness
 ok 29 - weak total, including positive/negative cancellation, adds bounded saved-RNG randomness
   ---
-  duration_ms: 0.339102
+  duration_ms: 0.288834
   type: 'test'
   ...
 # Subtest: displayed affinity probabilities exactly equal all discrete draw outcomes
 ok 30 - displayed affinity probabilities exactly equal all discrete draw outcomes
   ---
-  duration_ms: 6.198809
+  duration_ms: 5.866677
   type: 'test'
   ...
 # Subtest: positive and negative affinity move quality in the stated direction without exceeding E origin ceiling
 ok 31 - positive and negative affinity move quality in the stated direction without exceeding E origin ceiling
   ---
-  duration_ms: 0.515868
+  duration_ms: 0.473336
   type: 'test'
   ...
 # Subtest: prototype preview does not roll and saved tasting preserves exact correction after resume/revision
 ok 32 - prototype preview does not roll and saved tasting preserves exact correction after resume/revision
   ---
-  duration_ms: 1.433064
+  duration_ms: 1.403702
   type: 'test'
   ...
 # Subtest: T01 representative production→processing→contract→delivery→research→hire→assignment
 ok 33 - T01 representative production→processing→contract→delivery→research→hire→assignment
   ---
-  duration_ms: 11.309957
+  duration_ms: 13.589982
   type: 'test'
   ...
 # Subtest: T02 warehouse free2, buy5 retains2 discards3 only with consent; all-discard allowed explicit
 ok 34 - T02 warehouse free2, buy5 retains2 discards3 only with consent; all-discard allowed explicit
   ---
-  duration_ms: 1.421446
+  duration_ms: 3.868923
   type: 'test'
   ...
 # Subtest: T03 full warehouse processing uses net capacity
 ok 35 - T03 full warehouse processing uses net capacity
   ---
-  duration_ms: 0.555659
+  duration_ms: 0.750802
   type: 'test'
   ...
 # Subtest: T04 new milk never resets old expiry
 ok 36 - T04 new milk never resets old expiry
   ---
-  duration_ms: 1.048964
+  duration_ms: 1.219602
   type: 'test'
   ...
 # Subtest: T05 partial consumption, reservation split and rework retain lot metadata
 ok 37 - T05 partial consumption, reservation split and rework retain lot metadata
   ---
-  duration_ms: 1.469399
+  duration_ms: 1.625187
   type: 'test'
   ...
 # Subtest: T06 E material and A guarantee strictly yields C; preview agrees
 ok 38 - T06 E material and A guarantee strictly yields C; preview agrees
   ---
-  duration_ms: 0.521467
+  duration_ms: 0.601484
   type: 'test'
   ...
 # Subtest: T07 unused rare lot has no effect; explicit substitution changes potential
 ok 39 - T07 unused rare lot has no effect; explicit substitution changes potential
   ---
-  duration_ms: 0.996064
+  duration_ms: 1.089601
   type: 'test'
   ...
 # Subtest: T08 flour retains original E potential even with C guarantee
 ok 40 - T08 flour retains original E potential even with C guarantee
   ---
-  duration_ms: 1.201644
+  duration_ms: 0.734599
   type: 'test'
   ...
 # Subtest: T09 dueDay day10 + 3 days = 12, candidates never expire contracts twice
 ok 41 - T09 dueDay day10 + 3 days = 12, candidates never expire contracts twice
   ---
-  duration_ms: 1.621178
+  duration_ms: 2.37595
   type: 'test'
   ...
 # Subtest: T10 skipping candidates does not affect reputation or company XP
 ok 42 - T10 skipping candidates does not affect reputation or company XP
   ---
-  duration_ms: 3.770182
+  duration_ms: 0.561495
   type: 'test'
   ...
 # Subtest: T11 analysis changes candidates only and capped once/day
 ok 43 - T11 analysis changes candidates only and capped once/day
   ---
-  duration_ms: 0.711795
+  duration_ms: 0.698316
   type: 'test'
   ...
 # Subtest: T12 same transaction sequence accepted only once; previews do not change RNG
 ok 44 - T12 same transaction sequence accepted only once; previews do not change RNG
   ---
-  duration_ms: 0.644153
+  duration_ms: 0.929225
   type: 'test'
   ...
 # Subtest: T13 serialized daily commit cannot be repeated on reload
 ok 45 - T13 serialized daily commit cannot be repeated on reload
   ---
-  duration_ms: 0.977887
+  duration_ms: 1.144251
   type: 'test'
   ...
 # Subtest: T14 localStorage failure keeps previous persisted state and retry same commit
 ok 46 - T14 localStorage failure keeps previous persisted state and retry same commit
   ---
-  duration_ms: 1.717072
+  duration_ms: 1.652247
   type: 'test'
   ...
 # Subtest: T15 moving logistician does not destroy existing overcapacity stock
 ok 47 - T15 moving logistician does not destroy existing overcapacity stock
   ---
-  duration_ms: 0.322947
+  duration_ms: 0.316444
   type: 'test'
   ...
 # Subtest: T16 automation respects locked inputs, reservations, budget and quality
 ok 48 - T16 automation respects locked inputs, reservations, budget and quality
   ---
-  duration_ms: 1.190057
+  duration_ms: 1.469609
   type: 'test'
   ...
 # Subtest: T17 original revision creates separate recipe, lot and contract identities
 ok 49 - T17 original revision creates separate recipe, lot and contract identities
   ---
-  duration_ms: 10.607797
+  duration_ms: 9.331447
   type: 'test'
   ...
 # Subtest: T18 reputation drop and paid ads never lower or buy company experience
 ok 50 - T18 reputation drop and paid ads never lower or buy company experience
   ---
-  duration_ms: 0.515528
+  duration_ms: 0.488127
   type: 'test'
   ...
 # Subtest: T19 day60 final sale included; day61 only after explicit continue
 ok 51 - T19 day60 final sale included; day61 only after explicit continue
   ---
-  duration_ms: 2.399463
+  duration_ms: 2.078964
   type: 'test'
   ...
 # Subtest: T20 sample submitted day5 scored day15 once; expiry irrelevant
 ok 52 - T20 sample submitted day5 scored day15 once; expiry irrelevant
   ---
-  duration_ms: 4.246752
+  duration_ms: 4.37679
   type: 'test'
   ...
 # Subtest: T21 synthetic v52 fixture preserves assets, multi-item contracts, grades and notes
 ok 53 - T21 synthetic v52 fixture preserves assets, multi-item contracts, grades and notes
   ---
-  duration_ms: 2.489569
+  duration_ms: 1.907052
   type: 'test'
   ...
 # Subtest: T22 corrupt data is not initialized; second tab conflict and backup valid
 ok 54 - T22 corrupt data is not initialized; second tab conflict and backup valid
   ---
-  duration_ms: 1.420915
+  duration_ms: 1.343774
   type: 'test'
   ...
 # Subtest: T23 separate scenario preserves company and deduplicates shared profile
 ok 55 - T23 separate scenario preserves company and deduplicates shared profile
   ---
-  duration_ms: 0.300554
+  duration_ms: 0.346749
   type: 'test'
   ...
 # Subtest: T25 muted and reduced-motion preferences persist
 ok 56 - T25 muted and reduced-motion preferences persist
   ---
-  duration_ms: 0.656361
+  duration_ms: 0.481027
   type: 'test'
   ...
 # Subtest: T26 used staff reassignment delayed until following morning
 ok 57 - T26 used staff reassignment delayed until following morning
   ---
-  duration_ms: 0.646336
+  duration_ms: 0.590087
   type: 'test'
   ...
 # Subtest: invalid inputs never partially consume resources
 ok 58 - invalid inputs never partially consume resources
   ---
-  duration_ms: 1.772797
+  duration_ms: 1.788397
   type: 'test'
   ...
 # Subtest: same seed and action sequence produce identical economic state
 ok 59 - same seed and action sequence produce identical economic state
   ---
-  duration_ms: 9.533794
+  duration_ms: 10.92025
   type: 'test'
   ...
 # Subtest: finite scenario ends on its own final business day
 ok 60 - finite scenario ends on its own final business day
   ---
-  duration_ms: 11.977084
+  duration_ms: 12.777239
   type: 'test'
   ...
 # Subtest: typed validation rejects nonfinite production and malicious import requirements
 ok 61 - typed validation rejects nonfinite production and malicious import requirements
   ---
-  duration_ms: 0.810203
+  duration_ms: 0.623366
   type: 'test'
   ...
 # Subtest: recovery from corrupt main preserves raw corrupt data and loads valid incoming backup
 ok 62 - recovery from corrupt main preserves raw corrupt data and loads valid incoming backup
   ---
-  duration_ms: 0.507747
+  duration_ms: 0.465604
   type: 'test'
   ...
 # Subtest: staff sales bonus quotes current assignment, locks upon acceptance and contracts remain fixed
 ok 63 - staff sales bonus quotes current assignment, locks upon acceptance and contracts remain fixed
   ---
-  duration_ms: 0.5301
+  duration_ms: 0.502158
   type: 'test'
   ...
 # Subtest: ignoring warned adverse event uses declared free response
 ok 64 - ignoring warned adverse event uses declared free response
   ---
-  duration_ms: 0.310449
+  duration_ms: 0.444062
   type: 'test'
   ...
 # Subtest: insolvent company can recover via contract work without debt or lost staff
 ok 65 - insolvent company can recover via contract work without debt or lost staff
   ---
-  duration_ms: 0.783964
+  duration_ms: 0.81692
   type: 'test'
   ...
 # Subtest: endless v52 migration does not incorrectly restart day60 evaluation
 ok 66 - endless v52 migration does not incorrectly restart day60 evaluation
   ---
-  duration_ms: 1.0662
+  duration_ms: 1.178921
   type: 'test'
   ...
 # Subtest: T05 exact-lot merge preserves every semantic field and never refreshes expiry
 ok 67 - T05 exact-lot merge preserves every semantic field and never refreshes expiry
   ---
-  duration_ms: 0.462408
+  duration_ms: 0.432475
   type: 'test'
   ...
 # Subtest: import rejects prototype property names in identity-bearing fields
 ok 68 - import rejects prototype property names in identity-bearing fields
   ---
-  duration_ms: 0.348766
+  duration_ms: 0.316004
   type: 'test'
   ...
 # Subtest: initial calendar has no accidental day45 repeat; endless reassessment preserves first result
 ok 69 - initial calendar has no accidental day45 repeat; endless reassessment preserves first result
   ---
-  duration_ms: 35.693533
+  duration_ms: 38.501715
   type: 'test'
   ...
 # Subtest: migration maps known v52 customer levels, advanced research and rare staff into new roles
 ok 70 - migration maps known v52 customer levels, advanced research and rare staff into new roles
   ---
-  duration_ms: 0.789412
+  duration_ms: 0.708862
   type: 'test'
   ...
 # Subtest: explicit minori/komugi combination improves distribution without changing material ceiling
 ok 71 - explicit minori/komugi combination improves distribution without changing material ceiling
   ---
-  duration_ms: 0.547777
+  duration_ms: 0.498442
   type: 'test'
   ...
 # Subtest: reserved materials are excluded from automatic processing and wholesale
 ok 72 - reserved materials are excluded from automatic processing and wholesale
   ---
-  duration_ms: 0.744434
+  duration_ms: 0.770422
   type: 'test'
   ...
 # Subtest: large legacy quality research remains numerically stable and respects E material ceiling
 ok 73 - large legacy quality research remains numerically stable and respects E material ceiling
   ---
-  duration_ms: 0.496339
+  duration_ms: 0.43566
   type: 'test'
   ...
 # Subtest: migrated supply-material quality is retained in new purchases
 ok 74 - migrated supply-material quality is retained in new purchases
   ---
-  duration_ms: 0.718295
+  duration_ms: 0.726186
   type: 'test'
   ...
 # Subtest: bento advice begins with a real missing ingredient and valid procurement unit
 ok 75 - bento advice begins with a real missing ingredient and valid procurement unit
   ---
-  duration_ms: 3.491963
+  duration_ms: 4.001038
   type: 'test'
   ...
 # Subtest: advice advances from buying to intermediate craft to target quality using current state
 ok 76 - advice advances from buying to intermediate craft to target quality using current state
   ---
-  duration_ms: 6.640997
+  duration_ms: 5.167891
   type: 'test'
   ...
 # Subtest: exact odds use craftPlan and first-batch quantity, never hypothetical materials
 ok 77 - exact odds use craftPlan and first-batch quantity, never hypothetical materials
   ---
-  duration_ms: 0.738224
+  duration_ms: 0.569928
   type: 'test'
   ...
 # Subtest: material cap guides to material growth, not ineffective quality research
 ok 78 - material cap guides to material growth, not ineffective quality research
   ---
-  duration_ms: 0.45745
+  duration_ms: 0.383644
   type: 'test'
   ...
 # Subtest: research unlock is explicit and takes precedence over collecting unusable ingredients
 ok 79 - research unlock is explicit and takes precedence over collecting unusable ingredients
   ---
-  duration_ms: 0.326533
+  duration_ms: 0.342603
   type: 'test'
   ...
 # Subtest: one-step rework recommends the actual lot and preserves its deadline on execution
 ok 80 - one-step rework recommends the actual lot and preserves its deadline on execution
   ---
-  duration_ms: 0.832807
+  duration_ms: 1.76939
   type: 'test'
   ...
 # Subtest: zero funds, spent frames, capacity and protected stock get concrete separate routes
 ok 81 - zero funds, spent frames, capacity and protected stock get concrete separate routes
   ---
-  duration_ms: 2.135634
+  duration_ms: 1.101679
   type: 'test'
   ...
 # Subtest: accept limits are explained independently from manufacturing readiness
 ok 82 - accept limits are explained independently from manufacturing readiness
   ---
-  duration_ms: 0.337861
+  duration_ms: 0.288384
   type: 'test'
   ...
 # Subtest: advice never mutates cash, RNG, staffing or inventory through repeated rendering
 ok 83 - advice never mutates cash, RNG, staffing or inventory through repeated rendering
   ---
-  duration_ms: 1.530751
+  duration_ms: 2.128186
   type: 'test'
   ...
 # Subtest: quality target never leaks into intermediate guidance and preserves order reservation
 ok 84 - quality target never leaks into intermediate guidance and preserves order reservation
   ---
-  duration_ms: 0.439634
+  duration_ms: 0.597778
   type: 'test'
   ...
 # Subtest: whole-day simulations and previews leave optional invitation untouched and never expire it
 ok 85 - whole-day simulations and previews leave optional invitation untouched and never expire it
   ---
-  duration_ms: 7.657352
+  duration_ms: 8.654582
   type: 'test'
   ...
 # Subtest: dining unlock by day or company level, single active slot, lossless cancellation
 ok 86 - dining unlock by day or company level, single active slot, lossless cancellation
   ---
-  duration_ms: 1.200893
+  duration_ms: 0.902065
   type: 'test'
   ...
 # Subtest: E bread and E salad match a picnic; quality cannot outweigh purpose and serving style
 ok 87 - E bread and E salad match a picnic; quality cannot outweigh purpose and serving style
   ---
-  duration_ms: 0.822241
+  duration_ms: 0.909255
   type: 'test'
   ...
 # Subtest: preview and actual score match exactly with no gameplay RNG use
 ok 88 - preview and actual score match exactly with no gameplay RNG use
   ---
-  duration_ms: 1.119671
+  duration_ms: 1.093396
   type: 'test'
   ...
 # Subtest: dining consumes one of each and cannot use reserved, protected, expired, raw or same food
 ok 89 - dining consumes one of each and cannot use reserved, protected, expired, raw or same food
   ---
-  duration_ms: 1.544853
+  duration_ms: 1.576235
   type: 'test'
   ...
 # Subtest: double submission cannot repeat rewards or consume another sample
 ok 90 - double submission cannot repeat rewards or consume another sample
   ---
-  duration_ms: 0.820088
+  duration_ms: 0.892501
   type: 'test'
   ...
 # Subtest: replay records improvement but no repeated research or mastery reward
 ok 91 - replay records improvement but no repeated research or mastery reward
   ---
-  duration_ms: 1.462118
+  duration_ms: 1.520564
   type: 'test'
   ...
 # Subtest: sample cost affects profit once without a second cash charge or false sales
 ok 92 - sample cost affects profit once without a second cash charge or false sales
   ---
-  duration_ms: 0.809212
+  duration_ms: 0.814546
   type: 'test'
   ...
 # Subtest: dining dishes can be prepared through the ordinary batch engine with no extra clicks per material
 ok 93 - dining dishes can be prepared through the ordinary batch engine with no extra clicks per material
   ---
-  duration_ms: 2.316918
+  duration_ms: 3.052564
   type: 'test'
   ...
 # Subtest: sample preparation is atomic and honors order locks and limited frames
 ok 94 - sample preparation is atomic and honors order locks and limited frames
   ---
-  duration_ms: 0.660116
+  duration_ms: 0.693479
   type: 'test'
   ...
 # Subtest: all four briefs have feasible E-quality pairings without imposing a single high-price dish
 ok 95 - all four briefs have feasible E-quality pairings without imposing a single high-price dish
   ---
-  duration_ms: 7.644983
+  duration_ms: 7.924931
   type: 'test'
   ...
 # Subtest: v57 migration preserves real prior rules, all assets, recruiters, contracts and RNG
 ok 96 - v57 migration preserves real prior rules, all assets, recruiters, contracts and RNG
   ---
-  duration_ms: 4.1395
+  duration_ms: 4.025933
   type: 'test'
   ...
 # Subtest: album and active brief survive save restart; invalid score and duplicate album fail import
 ok 97 - album and active brief survive save restart; invalid score and duplicate album fail import
   ---
-  duration_ms: 1.824255
+  duration_ms: 1.426726
   type: 'test'
   ...
 # Subtest: distributed HTML has all executable scripts and styles inline and boots without sibling files
 ok 98 - distributed HTML has all executable scripts and styles inline and boots without sibling files
   ---
-  duration_ms: 362.771784
+  duration_ms: 347.549208
   type: 'test'
   ...
 # Subtest: real DOM clicks complete manufacturing, acceptance, delivery, day close and save resume
 ok 99 - real DOM clicks complete manufacturing, acceptance, delivery, day close and save resume
   ---
-  duration_ms: 300.084931
+  duration_ms: 292.934994
   type: 'test'
   ...
 # Subtest: all 23 routes render in actual DOM and expose only registered handlers
 ok 100 - all 23 routes render in actual DOM and expose only registered handlers
   ---
-  duration_ms: 233.829092
+  duration_ms: 253.213432
   type: 'test'
   ...
 # Subtest: content URI with denied localStorage and unavailable audio can still play temporarily
 ok 101 - content URI with denied localStorage and unavailable audio can still play temporarily
   ---
-  duration_ms: 118.990708
+  duration_ms: 112.746464
   type: 'test'
   ...
 # Subtest: pasted backup imports from denied-storage welcome without requiring a prior new game
 ok 102 - pasted backup imports from denied-storage welcome without requiring a prior new game
   ---
-  duration_ms: 57.007039
+  duration_ms: 65.74291
   type: 'test'
   ...
 # Subtest: temporary backup export uses portable JSON and does not claim an unconfirmed file save
 ok 103 - temporary backup export uses portable JSON and does not claim an unconfirmed file save
   ---
-  duration_ms: 63.03417
+  duration_ms: 68.817757
   type: 'test'
   ...
 # Subtest: write failure is visible, settings never falsely report saved, temporary continuation remains usable
 ok 104 - write failure is visible, settings never falsely report saved, temporary continuation remains usable
   ---
-  duration_ms: 83.79877
+  duration_ms: 101.682182
   type: 'test'
   ...
 # Subtest: invalid procurement quantities are blocked and overflow requires the live checkbox
 ok 105 - invalid procurement quantities are blocked and overflow requires the live checkbox
   ---
-  duration_ms: 78.730709
+  duration_ms: 100.295404
   type: 'test'
   ...
 # Subtest: failed actions preserve the open input sheet and consume nothing
 ok 106 - failed actions preserve the open input sheet and consume nothing
   ---
-  duration_ms: 54.995302
+  duration_ms: 64.478784
   type: 'test'
   ...
 # Subtest: delayed native dialog close event does not close the next input dialog
 ok 107 - delayed native dialog close event does not close the next input dialog
   ---
-  duration_ms: 73.115741
+  duration_ms: 71.528078
   type: 'test'
   ...
 # Subtest: v53 saved envelope resumes in v54 using the same storage key
 ok 108 - v53 saved envelope resumes in v54 using the same storage key
   ---
-  duration_ms: 41.774602
+  duration_ms: 43.497364
   type: 'test'
   ...
 # Subtest: imported staff names remain literal text in dialog titles
 ok 109 - imported staff names remain literal text in dialog titles
   ---
-  duration_ms: 57.020199
+  duration_ms: 59.572847
   type: 'test'
   ...
 # Subtest: batch preparation DOM carries the contract and delivers once without menu hopping
 ok 110 - batch preparation DOM carries the contract and delivers once without menu hopping
   ---
-  duration_ms: 77.975308
+  duration_ms: 85.806812
   type: 'test'
   ...
 # Subtest: work plan form persists, executes at close, and shares daily budget after resume
 ok 111 - work plan form persists, executes at close, and shares daily budget after resume
   ---
-  duration_ms: 123.984073
+  duration_ms: 139.667513
   type: 'test'
   ...
 # Subtest: neutral original recipe shows live ingredient corrections and preserves tasting in history
 ok 112 - neutral original recipe shows live ingredient corrections and preserves tasting in history
   ---
-  duration_ms: 83.790758
+  duration_ms: 94.486948
   type: 'test'
   ...
 # Subtest: ordinary repeat deliveries use a toast; first delivery still has its milestone sheet
 ok 113 - ordinary repeat deliveries use a toast; first delivery still has its milestone sheet
   ---
-  duration_ms: 65.296275
+  duration_ms: 65.039266
   type: 'test'
   ...
 # Subtest: closing dialog distinguishes executable work, optional growth and planned staff work
 ok 114 - closing dialog distinguishes executable work, optional growth and planned staff work
   ---
-  duration_ms: 47.979389
+  duration_ms: 51.90233
   type: 'test'
   ...
 # Subtest: preset is enabled in one click with advanced controls kept collapsed
 ok 115 - preset is enabled in one click with advanced controls kept collapsed
   ---
-  duration_ms: 108.664142
+  duration_ms: 111.794856
   type: 'test'
   ...
 # Subtest: candidate card completes accept, materials, processing and delivery in one click
 ok 116 - candidate card completes accept, materials, processing and delivery in one click
   ---
-  duration_ms: 69.314351
+  duration_ms: 68.559327
   type: 'test'
   ...
 # Subtest: routine closing returns directly to home while detailed daily reports remain optional
 ok 117 - routine closing returns directly to home while detailed daily reports remain optional
   ---
-  duration_ms: 145.321848
+  duration_ms: 156.840143
   type: 'test'
   ...
 # Subtest: unfulfilled automatic order warns at close and never says it is safe to skip
 ok 118 - unfulfilled automatic order warns at close and never says it is safe to skip
   ---
-  duration_ms: 63.364819
+  duration_ms: 59.988157
   type: 'test'
   ...
 # Subtest: closing forecast displays automatic delivery without a false expiring-inventory warning
 ok 119 - closing forecast displays automatic delivery without a false expiring-inventory warning
   ---
-  duration_ms: 55.091338
+  duration_ms: 57.641971
   type: 'test'
   ...
 # Subtest: cash recovery is discoverable from home with no money and no work frames
 ok 120 - cash recovery is discoverable from home with no money and no work frames
   ---
-  duration_ms: 54.783062
+  duration_ms: 63.660622
   type: 'test'
   ...
 # Subtest: bulk commission validates count and retains input on a failed stale action
 ok 121 - bulk commission validates count and retains input on a failed stale action
   ---
-  duration_ms: 58.796992
+  duration_ms: 58.776366
   type: 'test'
   ...
 # Subtest: recruitment starts with no fixed candidates and shows cost, odds and replacement before payment
 ok 122 - recruitment starts with no fixed candidates and shows cost, odds and replacement before payment
   ---
-  duration_ms: 70.829289
+  duration_ms: 74.65353
   type: 'test'
   ...
 # Subtest: applicant profile shows all stats and hiring impact, then adopts exactly the revealed person
 ok 123 - applicant profile shows all stats and hiring impact, then adopts exactly the revealed person
   ---
-  duration_ms: 66.364438
+  duration_ms: 78.086952
   type: 'test'
   ...
 # Subtest: applicants and portraits survive save resume without a fresh roll
 ok 124 - applicants and portraits survive save resume without a fresh roll
   ---
-  duration_ms: 142.810176
+  duration_ms: 123.834291
   type: 'test'
   ...
 # Subtest: automatic cash recovery setting persists and closing preview discloses exact work income
 ok 125 - automatic cash recovery setting persists and closing preview discloses exact work income
   ---
-  duration_ms: 70.44613
+  duration_ms: 84.333258
   type: 'test'
   ...
 # Subtest: buyback quantity changes show exact revenue and do not use protected lots
 ok 126 - buyback quantity changes show exact revenue and do not use protected lots
   ---
-  duration_ms: 62.629188
+  duration_ms: 66.70907
   type: 'test'
   ...
 # Subtest: imported applicant text remains literal and reduced-motion mode still exposes recruitment outcome
 ok 127 - imported applicant text remains literal and reduced-motion mode still exposes recruitment outcome
   ---
-  duration_ms: 63.919597
+  duration_ms: 53.283037
   type: 'test'
   ...
 # Subtest: v58 order card explains exact first step and carries procurement quantity into the next dialog
 ok 128 - v58 order card explains exact first step and carries procurement quantity into the next dialog
   ---
-  duration_ms: 69.1416
+  duration_ms: 70.065599
   type: 'test'
   ...
 # Subtest: v58 quality guide can standardize the named product and then exposes the guaranteed shortcut
 ok 129 - v58 quality guide can standardize the named product and then exposes the guaranteed shortcut
   ---
-  duration_ms: 71.216423
+  duration_ms: 62.977047
   type: 'test'
   ...
 # Subtest: v58 material ceiling, recipe unlocking and disabled contract limits are all stated visibly
 ok 130 - v58 material ceiling, recipe unlocking and disabled contract limits are all stated visibly
   ---
-  duration_ms: 83.697706
+  duration_ms: 66.810939
   type: 'test'
   ...
 # Subtest: v58 quality rework opens the exact lot with the necessary quantity selected
 ok 131 - v58 quality rework opens the exact lot with the necessary quantity selected
   ---
-  duration_ms: 60.662668
+  duration_ms: 60.224424
   type: 'test'
   ...
 # Subtest: v58 dining complete flow uses two samples, shows score feedback, saves album and restores it
 ok 132 - v58 dining complete flow uses two samples, shows score feedback, saves album and restores it
   ---
-  duration_ms: 124.820365
+  duration_ms: 147.516288
   type: 'test'
   ...
 # Subtest: v58 menu preparation has an atomic materials-to-dish button and returns directly to the menu
 ok 133 - v58 menu preparation has an atomic materials-to-dish button and returns directly to the menu
   ---
-  duration_ms: 89.408981
+  duration_ms: 94.436088
   type: 'test'
   ...
 # Subtest: v58 menu never renders imported food names as markup or draws reward from opening a sheet
 ok 134 - v58 menu never renders imported food names as markup or draws reward from opening a sheet
   ---
-  duration_ms: 47.378323
+  duration_ms: 50.001328
   type: 'test'
   ...
 # Subtest: v58 a one-unit harvest deficit stays one unit, and invalid production never shows negative spend
 ok 135 - v58 a one-unit harvest deficit stays one unit, and invalid production never shows negative spend
   ---
-  duration_ms: 60.588449
+  duration_ms: 61.035425
   type: 'test'
   ...
 # Subtest: v58 ready stock with an exhausted acceptance limit does not offer an enabled accept shortcut
 ok 136 - v58 ready stock with an exhausted acceptance limit does not offer an enabled accept shortcut
   ---
-  duration_ms: 43.722574
+  duration_ms: 56.219842
   type: 'test'
   ...
 # Subtest: v58 improvement input explains RP shortage before execution, without misleading negative cost
 ok 137 - v58 improvement input explains RP shortage before execution, without misleading negative cost
   ---
-  duration_ms: 57.030176
+  duration_ms: 110.112656
   type: 'test'
   ...
 # Subtest: v58 a B-quality guarantee path shows both standardization stages and their total before spending
 ok 138 - v58 a B-quality guarantee path shows both standardization stages and their total before spending
   ---
-  duration_ms: 64.393463
+  duration_ms: 64.377055
+  type: 'test'
+  ...
+# Subtest: v59 visible coach guides acceptance, both craft quantities, delivery, and delegation without page hunting
+ok 139 - v59 visible coach guides acceptance, both craft quantities, delivery, and delegation without page hunting
+  ---
+  duration_ms: 106.310801
+  type: 'test'
+  ...
+# Subtest: v59 growth sheet distinguishes units from contracts and previews affordable exact upgrades
+ok 140 - v59 growth sheet distinguishes units from contracts and previews affordable exact upgrades
+  ---
+  duration_ms: 71.676917
+  type: 'test'
+  ...
+# Subtest: v59 letters lead directly to the resulting candidate and exact preparation button
+ok 141 - v59 letters lead directly to the resulting candidate and exact preparation button
+  ---
+  duration_ms: 72.13482
+  type: 'test'
+  ...
+# Subtest: v59 tutorial skip and resume are available without resetting the company
+ok 142 - v59 tutorial skip and resume are available without resetting the company
+  ---
+  duration_ms: 70.496734
+  type: 'test'
+  ...
+# Subtest: v59 forecast and every chapter dialog renders valid bound actions in the actual DOM
+ok 143 - v59 forecast and every chapter dialog renders valid bound actions in the actual DOM
+  ---
+  duration_ms: 193.513485
+  type: 'test'
+  ...
+# Subtest: v59 no-stock contest screen supplies a direct preparation path then lets the user choose submission
+ok 144 - v59 no-stock contest screen supplies a direct preparation path then lets the user choose submission
+  ---
+  duration_ms: 71.714843
+  type: 'test'
+  ...
+# Subtest: the coach completes a first delivery in four transactions with no RNG requirement
+ok 145 - the coach completes a first delivery in four transactions with no RNG requirement
+  ---
+  duration_ms: 16.146418
+  type: 'test'
+  ...
+# Subtest: first delivery through one-click or day-close automation also advances the same tutorial and counters
+ok 146 - first delivery through one-click or day-close automation also advances the same tutorial and counters
+  ---
+  duration_ms: 4.964032
+  type: 'test'
+  ...
+# Subtest: making and wholesale do not increase contract deliveries, split requirements count actual units
+ok 147 - making and wholesale do not increase contract deliveries, split requirements count actual units
+  ---
+  duration_ms: 1.564848
+  type: 'test'
+  ...
+# Subtest: skipping and reopening tutorial changes no assets and supports continued companies
+ok 148 - skipping and reopening tutorial changes no assets and supports continued companies
+  ---
+  duration_ms: 4.175744
+  type: 'test'
+  ...
+# Subtest: delegation coach points to close preview when the real plan will deliver
+ok 149 - delegation coach points to close preview when the real plan will deliver
+  ---
+  duration_ms: 2.952947
+  type: 'test'
+  ...
+# Subtest: sales research raises new acceptance limit gradually and the same limit is enforced
+ok 150 - sales research raises new acceptance limit gradually and the same limit is enforced
+  ---
+  duration_ms: 2.460555
+  type: 'test'
+  ...
+# Subtest: growth preview is exact and does not restore consumed action slots
+ok 151 - growth preview is exact and does not restore consumed action slots
+  ---
+  duration_ms: 1.098003
+  type: 'test'
+  ...
+# Subtest: letters arrive at a defined milestone and persist until answered, without overwriting contracts
+ok 152 - letters arrive at a defined milestone and persist until answered, without overwriting contracts
+  ---
+  duration_ms: 3.967518
+  type: 'test'
+  ...
+# Subtest: invitation preview matches contract terms, has four inclusive days and protects accepted contracts
+ok 153 - invitation preview matches contract terms, has four inclusive days and protects accepted contracts
+  ---
+  duration_ms: 2.771591
+  type: 'test'
+  ...
+# Subtest: learning reward and letter history cannot be repeated through double taps or reloading
+ok 154 - learning reward and letter history cannot be repeated through double taps or reloading
+  ---
+  duration_ms: 2.323513
+  type: 'test'
+  ...
+# Subtest: all letters support both choices and unavailable recipes use a disclosed basic substitute
+ok 155 - all letters support both choices and unavailable recipes use a disclosed basic substitute
+  ---
+  duration_ms: 4.726002
+  type: 'test'
+  ...
+# Subtest: forecasts, tutorial, event previews and growth advice never consume RNG or modify state
+ok 156 - forecasts, tutorial, event previews and growth advice never consume RNG or modify state
+  ---
+  duration_ms: 14.042297
+  type: 'test'
+  ...
+# Subtest: v58 continuation preserves economic state and labels unknown historical unit count
+ok 157 - v58 continuation preserves economic state and labels unknown historical unit count
+  ---
+  duration_ms: 4.989199
+  type: 'test'
+  ...
+# Subtest: invalid progress, duplicate letters and corrupted counters are rejected on import
+ok 158 - invalid progress, duplicate letters and corrupted counters are rejected on import
+  ---
+  duration_ms: 1.206492
+  type: 'test'
+  ...
+# Subtest: 60th day includes delivery units and one-time letters remain bounded in endless play
+ok 159 - 60th day includes delivery units and one-time letters remain bounded in endless play
+  ---
+  duration_ms: 47.535175
+  type: 'test'
+  ...
+# Subtest: contest invitation can prepare exactly one sample with ordinary costs and submit separately
+ok 160 - contest invitation can prepare exactly one sample with ordinary costs and submit separately
+  ---
+  duration_ms: 1.787605
+  type: 'test'
+  ...
+# Subtest: contest preparation refuses expired registration and missing formal recipes atomically
+ok 161 - contest preparation refuses expired registration and missing formal recipes atomically
+  ---
+  duration_ms: 0.468568
+  type: 'test'
+  ...
+# Subtest: a midday v58 migration labels partial daily unit counts until the next ledger
+ok 162 - a midday v58 migration labels partial daily unit counts until the next ledger
+  ---
+  duration_ms: 1.670053
   type: 'test'
   ...
 # Subtest: new company has no applicants until recruitment; day change and all previews do not generate any
-ok 139 - new company has no applicants until recruitment; day change and all previews do not generate any
+ok 163 - new company has no applicants until recruitment; day change and all previews do not generate any
   ---
-  duration_ms: 10.499592
+  duration_ms: 10.982342
   type: 'test'
   ...
 # Subtest: all four campaigns pay exactly once, increase counts, respect focus and guarantee first rarity
-ok 140 - all four campaigns pay exactly once, increase counts, respect focus and guarantee first rarity
+ok 164 - all four campaigns pay exactly once, increase counts, respect focus and guarantee first rarity
   ---
-  duration_ms: 2.210247
+  duration_ms: 2.195535
   type: 'test'
   ...
 # Subtest: displayed base and guarantee distributions match all 10000 discrete probability inputs
-ok 141 - displayed base and guarantee distributions match all 10000 discrete probability inputs
+ok 165 - displayed base and guarantee distributions match all 10000 discrete probability inputs
   ---
-  duration_ms: 2.175425
+  duration_ms: 2.145291
   type: 'test'
   ...
 # Subtest: rarity probability improves monotonically with campaign price for each upper-rarity threshold
-ok 142 - rarity probability improves monotonically with campaign price for each upper-rarity threshold
+ok 166 - rarity probability improves monotonically with campaign price for each upper-rarity threshold
   ---
-  duration_ms: 0.31761
+  duration_ms: 0.280262
   type: 'test'
   ...
 # Subtest: same seed and campaign sequence reproduce applicants, while different seeds create different people
-ok 143 - same seed and campaign sequence reproduce applicants, while different seeds create different people
+ok 167 - same seed and campaign sequence reproduce applicants, while different seeds create different people
   ---
-  duration_ms: 16.481444
+  duration_ms: 16.106099
   type: 'test'
   ...
 # Subtest: recruitment cannot reroll that day, on reload, or through a stale double tap
-ok 144 - recruitment cannot reroll that day, on reload, or through a stale double tap
+ok 168 - recruitment cannot reroll that day, on reload, or through a stale double tap
   ---
-  duration_ms: 1.443098
+  duration_ms: 1.359988
   type: 'test'
   ...
 # Subtest: unaffordable or invalid campaigns preserve cash, candidate board, id sequence and both RNG streams
-ok 145 - unaffordable or invalid campaigns preserve cash, candidate board, id sequence and both RNG streams
+ok 169 - unaffordable or invalid campaigns preserve cash, candidate board, id sequence and both RNG streams
   ---
-  duration_ms: 0.533666
+  duration_ms: 0.526102
   type: 'test'
   ...
 # Subtest: applicants persist without real or game-day expiry, replacement leaves hired staff intact
-ok 146 - applicants persist without real or game-day expiry, replacement leaves hired staff intact
+ok 170 - applicants persist without real or game-day expiry, replacement leaves hired staff intact
   ---
-  duration_ms: 3.651383
+  duration_ms: 3.396359
   type: 'test'
   ...
 # Subtest: hire preserves revealed stats and portrait, charges no additional fee and grants no purchase XP
-ok 147 - hire preserves revealed stats and portrait, charges no additional fee and grants no purchase XP
+ok 171 - hire preserves revealed stats and portrait, charges no additional fee and grants no purchase XP
   ---
-  duration_ms: 0.806648
+  duration_ms: 0.76285
   type: 'test'
   ...
 # Subtest: team scenario blocks further hiring and recruitment before expense
-ok 148 - team scenario blocks further hiring and recruitment before expense
+ok 172 - team scenario blocks further hiring and recruitment before expense
   ---
-  duration_ms: 1.207493
+  duration_ms: 1.205591
   type: 'test'
   ...
 # Subtest: recruited talents can be assigned, trained, used and reloaded with their work history
-ok 149 - recruited talents can be assigned, trained, used and reloaded with their work history
+ok 173 - recruited talents can be assigned, trained, used and reloaded with their work history
   ---
-  duration_ms: 1.698935
+  duration_ms: 1.751773
   type: 'test'
   ...
 # Subtest: trait-based bread teamwork supports generated ids and retains the old named team
-ok 150 - trait-based bread teamwork supports generated ids and retains the old named team
+ok 174 - trait-based bread teamwork supports generated ids and retains the old named team
   ---
-  duration_ms: 0.537762
+  duration_ms: 0.463441
   type: 'test'
   ...
 # Subtest: zero cash, no materials and no spare frames can still receive immediate debt-free support
-ok 151 - zero cash, no materials and no spare frames can still receive immediate debt-free support
+ok 175 - zero cash, no materials and no spare frames can still receive immediate debt-free support
   ---
-  duration_ms: 2.182786
+  duration_ms: 2.697212
   type: 'test'
   ...
 # Subtest: aid threshold and seven-day cooldown are enforced on import and across day close
-ok 152 - aid threshold and seven-day cooldown are enforced on import and across day close
+ok 176 - aid threshold and seven-day cooldown are enforced on import and across day close
   ---
-  duration_ms: 2.823423
+  duration_ms: 2.187924
   type: 'test'
   ...
 # Subtest: expense relief lasts acquisition day and next two business days only
-ok 153 - expense relief lasts acquisition day and next two business days only
+ok 177 - expense relief lasts acquisition day and next two business days only
   ---
-  duration_ms: 1.184759
+  duration_ms: 1.026899
   type: 'test'
   ...
 # Subtest: bulk commission work is material-free and has exactly the same money and staff growth as repeated work
-ok 154 - bulk commission work is material-free and has exactly the same money and staff growth as repeated work
+ok 178 - bulk commission work is material-free and has exactly the same money and staff growth as repeated work
   ---
-  duration_ms: 0.689691
+  duration_ms: 0.709422
   type: 'test'
   ...
 # Subtest: commission income counts as operating income but support does not masquerade as sales profit
-ok 155 - commission income counts as operating income but support does not masquerade as sales profit
+ok 179 - commission income counts as operating income but support does not masquerade as sales profit
   ---
-  duration_ms: 0.459513
+  duration_ms: 0.574114
   type: 'test'
   ...
 # Subtest: automatic recovery respects trial frames and daily forecast exactly matches actual income
-ok 156 - automatic recovery respects trial frames and daily forecast exactly matches actual income
+ok 180 - automatic recovery respects trial frames and daily forecast exactly matches actual income
   ---
-  duration_ms: 1.090627
+  duration_ms: 1.071464
   type: 'test'
   ...
 # Subtest: automatic commissions run after contract deliveries, stopping if they cover the cash target
-ok 157 - automatic commissions run after contract deliveries, stopping if they cover the cash target
+ok 181 - automatic commissions run after contract deliveries, stopping if they cover the cash target
   ---
-  duration_ms: 0.561057
+  duration_ms: 0.50401
   type: 'test'
   ...
 # Subtest: automatic recovery never runs from rendering and uses only enough work to reach its target
-ok 158 - automatic recovery never runs from rendering and uses only enough work to reach its target
+ok 182 - automatic recovery never runs from rendering and uses only enough work to reach its target
   ---
-  duration_ms: 2.174824
+  duration_ms: 2.699466
   type: 'test'
   ...
 # Subtest: stock buyback pays below cost, observes daily cap and protects reserved and locked lots
-ok 159 - stock buyback pays below cost, observes daily cap and protects reserved and locked lots
+ok 183 - stock buyback pays below cost, observes daily cap and protects reserved and locked lots
   ---
-  duration_ms: 1.501067
+  duration_ms: 0.997465
   type: 'test'
   ...
 # Subtest: buyback cannot yield profit by buying and immediately reselling, or sell expired and valueless lots
-ok 160 - buyback cannot yield profit by buying and immediately reselling, or sell expired and valueless lots
+ok 184 - buyback cannot yield profit by buying and immediately reselling, or sell expired and valueless lots
   ---
-  duration_ms: 0.617693
+  duration_ms: 0.596606
   type: 'test'
   ...
 # Subtest: unknown or corrupt applicant data, duplicate ids and forged relief duration are rejected on import
-ok 161 - unknown or corrupt applicant data, duplicate ids and forged relief duration are rejected on import
+ok 185 - unknown or corrupt applicant data, duplicate ids and forged relief duration are rejected on import
   ---
-  duration_ms: 1.390149
+  duration_ms: 1.355522
   type: 'test'
   ...
 # Subtest: v56 migration preserves all owned staff and custom work plans without generating applicants or granting cash
-ok 162 - v56 migration preserves all owned staff and custom work plans without generating applicants or granting cash
+ok 186 - v56 migration preserves all owned staff and custom work plans without generating applicants or granting cash
   ---
-  duration_ms: 0.473725
+  duration_ms: 0.651557
   type: 'test'
   ...
 # Subtest: full locked warehouse at zero cash does not prevent material-free recovery
-ok 163 - full locked warehouse at zero cash does not prevent material-free recovery
+ok 187 - full locked warehouse at zero cash does not prevent material-free recovery
   ---
-  duration_ms: 0.555418
+  duration_ms: 0.397734
   type: 'test'
   ...
 # Subtest: recruitment corruption and forged candidate stats fail before UI is loaded
-ok 164 - recruitment corruption and forged candidate stats fail before UI is loaded
+ok 188 - recruitment corruption and forged candidate stats fail before UI is loaded
   ---
-  duration_ms: 0.535318
+  duration_ms: 0.575686
   type: 'test'
   ...
 # Subtest: cash-zero recovery reaches a delivery across seeds and all initial scenarios
-ok 165 - cash-zero recovery reaches a delivery across seeds and all initial scenarios
+ok 189 - cash-zero recovery reaches a delivery across seeds and all initial scenarios
   ---
-  duration_ms: 19.553342
+  duration_ms: 22.106813
   type: 'test'
   ...
 # Subtest: all UI page templates render and every displayed action exists, fresh + advanced
-ok 166 - all UI page templates render and every displayed action exists, fresh + advanced
+ok 190 - all UI page templates render and every displayed action exists, fresh + advanced
   ---
-  duration_ms: 104.63452
+  duration_ms: 97.547158
   type: 'test'
   ...
 # Subtest: welcome startup handler creates a saved run in isolated QA namespace
-ok 167 - welcome startup handler creates a saved run in isolated QA namespace
+ok 191 - welcome startup handler creates a saved run in isolated QA namespace
   ---
-  duration_ms: 7.004486
+  duration_ms: 7.183392
   type: 'test'
   ...
 # Subtest: craft, procurement, production, contract preparation and daily preview sheets generate without errors
-ok 168 - craft, procurement, production, contract preparation and daily preview sheets generate without errors
+ok 192 - craft, procurement, production, contract preparation and daily preview sheets generate without errors
   ---
-  duration_ms: 8.042273
+  duration_ms: 9.051927
   type: 'test'
   ...
 # Subtest: UI escapes imported names as text
-ok 169 - UI escapes imported names as text
+ok 193 - UI escapes imported names as text
   ---
-  duration_ms: 6.622269
+  duration_ms: 7.053972
   type: 'test'
   ...
-1..169
-# tests 169
+1..193
+# tests 193
 # suites 0
-# pass 169
+# pass 193
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 5314.244674
+# duration_ms 6161.188568

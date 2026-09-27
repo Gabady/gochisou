@@ -7,7 +7,7 @@ function run(seed,mode){let s=E.newGame(seed),actions=0,prepared=0;function act(
   for(const id of ['production','processing','quality','storage'])if(s.research[id]<3&&s.rp>=E.D.research[id].base*(s.research[id]+1)+20){act('research',{id});break}
   if(!s.staff.some(t=>t.assigned==='workshop')&&s.money>3600){if(!s.recruitment.candidates.length)act('recruit',{campaign:'flyer',focus:'workshop'});act('hire',{id:s.recruitment.candidates[0].id})}
   for(const id of ['warehouse','workshop','farm'])if(s.facilities[id]<2&&s.money>Math.round(E.D.facilities[id].base*1.65**(s.facilities[id]-1))+3000){act('facility',{id});break}
-  if(s.event){const ev=E.D.events[s.event.index],choice=ev.options.find(x=>x[0]==='research'||x[0]==='quality'||x[0]==='learn'||x[0]==='study')?.[0]||ev.options.at(-1)[0];act('event',{choice})}
+  if(s.event?.story)act('storyChoice',{choice:'learn'});else if(s.event){const ev=E.D.events[s.event.index],choice=ev.options.find(x=>x[0]==='research'||x[0]==='quality'||x[0]==='learn'||x[0]==='study')?.[0]||ev.options.at(-1)[0];act('event',{choice})}
   for(const candidate of s.candidates.filter(o=>o.minQuality===0)){
    const accepted=E.transact(s,'accept',{id:candidate.id});if(!accepted.ok)continue;
    const p=E.preparePreview(accepted.state,candidate.id);if(!p.ok)continue;
